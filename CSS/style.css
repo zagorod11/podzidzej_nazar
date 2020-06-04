@@ -1,0 +1,613 @@
+body {
+	width: 1080px;
+	height: 1400px;
+	margin: 5px auto 0px;
+	background: url(../img/images.jpg) no-repeat;
+	background-size: cover;
+}
+
+
+
+
+
+	/*Header*/
+header {
+	background-color: #53ccf5;
+	background: linear-gradient(to top, #53ccf5, #049bcf);
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 30px;
+	width: 1100px;
+	height: 216px;
+}
+.header_top {
+	position: absolute;
+	width: 1400px;
+	height: 50px;
+}
+.container {
+	position: absolute;
+	background-color: #208be8;
+	border: 2px solid; 
+	border-radius: 25px;
+	width: 60%;
+	height: 50px;
+	left: 108px;
+	padding-left: 15px;
+	padding-right: 15px;
+
+}
+.page_name {
+	position: absolute; 
+	width: 300px;
+	font-family: 'Pacifico', cursive;
+	font-size: 20px;
+}
+.reg, .log{
+	width: 100px;
+	position: absolute;
+	background-color: #0982eb;
+	text-align: center;
+	padding: 5px;
+	border: 1px solid;
+	border-radius: 10px;
+	top: 8px;
+}
+.reg {
+	left: 670px;
+}
+.log {
+	left: 550px;
+}
+a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+b {
+	font-size: 140px;
+}
+.name1 {
+	position: relative;
+	top: 30px;
+	font-family: Cooper black;
+	font-size: 100px;
+}
+.name2 {
+	position: relative;
+	top: 30px;
+	font-family: Britannic Bold;
+	font-size: 70px;
+}
+
+
+
+
+
+	/*Menu*/
+#nav {
+	padding: 0px;
+	margin: 0px;
+	position: absolute;
+	top: 250px;
+	border: 2px solid;
+	border-radius: 30px;
+	height: 500px;
+	width: 250px;
+	background: linear-gradient(to top, #62ed3b, #47c922);
+}
+#nav ul {
+	padding: 5px;
+}
+#nav li {
+	margin-bottom: 28px;
+	list-style: none;
+	text-decoration: none;
+	border: 1px solid;
+	border-radius: 50px;
+	background-color: #d9d93d;
+	text-align: center;
+	width: auto;
+	height: 15px;
+	padding: 25px;
+}
+
+
+
+
+
+	/*Column1*/
+	table {
+	padding: 0px;
+	width: 230px;
+	height: 230px;
+	border-radius: 30px;
+	background: linear-gradient(to top, #82f5a8, #74c292);
+	border: 2px solid;
+	position: absolute;
+	top: 825px;
+	font-family: Lucida Console;
+	font-size: 15px;
+}
+
+
+
+
+
+	/*Index content*/
+#content {
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Source Sans Pro', sans-serif;	padding: 0px;
+	margin: 0px;
+	position: relative;
+	top: 5px;
+	left: 270px;
+	border: 2px solid;
+	border-radius: 30px;
+	padding: 10px;
+	height: 800px;
+	width: 833px;
+	background-color: #53ccf5;
+	background: linear-gradient(to top, #2297e0, #1e88c9);
+}
+#content a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+}
+
+
+
+
+
+	/*USA content*/
+#USA h1 {
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+}
+#USA .text {
+	
+}
+#USA img {
+	width: 150px;
+	height: 85px;
+	float: left;
+}
+#USA1 img {
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 20px;
+}
+#USA1 p {
+	position: relative;
+	font-size: 20px;
+}
+.city1 {
+	left: 40px;
+	bottom: 20px;
+}
+.city2 {
+	left: 440px;
+	bottom: 65px;
+	
+}
+.city3 {
+	left: 40px;
+	top: 120px;
+}
+.city4 {
+	top: 75px;
+	left: 440px;
+}
+
+
+
+
+
+	/*New York*/
+ {
+	margin: 0px;
+	padding: 5px;
+}
+.block1, .block2, .block3 {
+	color: black;
+	font-size: 14px;
+}
+#LA .holder1 {
+background: url(../img/WalkOfFame.png) no-repeat;
+background-size: 100%;
+}
+#LA .holder2{
+background: url(../img/SantaMonika.png) no-repeat;
+background-size: 100%;
+
+}
+#LA .holder3 {
+	background: url(../img/Universal.png) no-repeat;
+	background-size: 100%;
+}
+
+
+#WT .holder1 {
+background: url(../img/WhiteHouse.png) no-repeat;
+background-size: 100%;
+}
+#WT .holder2 {
+background: url(../img/Kapitoly.png) no-repeat;
+background-size: 100%;
+}
+#WT .holder3 {
+background: url(../img/BotGarden.png) no-repeat;
+background-size: 100%;
+}
+
+
+#LV .holder1 {
+background: url(../img/SharlRif.png) no-repeat;
+background-size: 100%;
+}
+#LV .holder2 {
+background: url(../img/Fremont.png) no-repeat;
+background-size: 100%;
+}
+#LV .holder3 {
+background: url(../img/Belladgio.png) no-repeat;
+background-size: 100%;
+}
+
+ .holder1{
+    position:absolute;   
+	top: 380px;
+    width:250px;
+    height:500px;
+    background: url(../img/StatyaSvobodi.png) no-repeat;
+     margin:100px auto;
+}
+ .block1{
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    background:rgba(255,255,255, 0.7);
+    padding:5px;
+    display:none;
+}
+ .holder1:hover .block1{
+    display:block;
+}
+ .holder2{
+    position:absolute;
+	top: 380px;
+    left: 275px;   
+    width:280px;
+    height:400px;
+    background: url(../img/EmpStBuild.png) no-repeat;
+     margin:100px auto;
+}
+ .block2{
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    background:rgba(255,255,255, 0.7);
+    padding:5px;
+    display:none;
+}
+ .holder2:hover .block2{
+    display:block;
+}
+ .holder3{
+    position:absolute; 
+    top: 380px;
+    left: 575px;  
+    width:250px;
+    height:460px;
+    background: url(../img/CentralPark.png) no-repeat;
+     margin:100px auto;
+}
+ .block3{
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    background:rgba(255,255,255, 0.7);
+    padding:5px;
+    display:none;
+}
+ .holder3:hover .block3{
+    display:block;
+}
+
+
+
+
+
+	/*Ukraine content*/
+#UK h1 {
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+}
+#UK p {
+	margin-left: 10px;
+	position: absolute;
+	font-family: 'Roboto Slab', serif;
+	width: 500px;
+	height: 680px;
+}
+#UK img {
+	position: absolute;
+	left: 525px;
+	top: 110px;
+	float: right;
+	width: 300px;
+	height: 200px;
+}
+#UK #nav {
+	background: none;
+	border: none;
+	border-radius: 0px;
+	position: absolute;
+	top: 330px;
+	left: 525px;
+	margin: 0;
+	padding: 0;
+}
+#UK #nav li {
+	background: #fadc12;
+	width: 250px;
+}
+
+#UK #nav ul {
+	visibility: hidden;
+	position: absolute;
+	padding: 5px;
+	width: 250px;
+	top: 20px;
+	right: 30px;
+}
+
+#UK #nav li:hover > ul {
+	visibility: visible;
+	position: relative;
+}
+
+
+
+
+
+	/*Kyiv,Ukraine*/
+#Kyiv h1, h2{
+	text-align: center;
+}
+#Kyiv img {	
+	margin-right: 10px;
+	float: left;
+	position: relative;
+	left: 30px;
+	width: 250px;
+	height: 200px;
+}
+#Kyiv .inf1, .inf2, .inf3 {
+	font-size: 14px;
+	margin-right: 10px;
+	float: left;
+	width: 250px;
+	position: relative;
+	left: 30px;
+	top: 10px;
+}
+#Kyiv .inf2 {
+	font-size: 11px;
+}
+#Kyiv .h3 {
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+	color: black;
+}
+
+
+
+
+
+/*Odesa,Ukraine*/
+#Odesa h1, h2{
+	text-align: center;
+}
+#Odesa img {	
+	margin-right: 10px;
+	float: left;
+	position: relative;
+	left: 30px;
+	width: 250px;
+	height: 200px;
+}
+#Odesa .inf1, .inf2, .inf3 {
+	font-size: 14px;
+	margin-right: 10px;
+	float: left;
+	width: 250px;
+	position: relative;
+	left: 30px;
+	top: 10px;
+}
+#Odesa .h3 {
+	text-align: center;
+	font-weight: bold;
+	color: black;
+}
+
+
+
+
+/*Lviv,Ukraine*/
+#Lviv h1, h2{
+	text-align: center;
+}
+#Lviv img {	
+	margin-right: 10px;
+	float: left;
+	position: relative;
+	left: 30px;
+	width: 250px;
+	height: 200px;
+}
+#Lviv .inf1, .inf2, .inf3 {
+	font-size: 14px;
+	margin-right: 10px;
+	float: left;
+	width: 250px;
+	position: relative;
+	left: 30px;
+	top: 10px;
+}
+#Lviv .h3 {
+	text-align: center;
+	font-weight: bold;
+	color: black;
+}
+
+
+
+
+	/* Great Britain*/
+	#ANG img {
+		position: relative;
+		border: 1px solid;
+		border-color: black;
+		float: left;
+		height: 200px;
+		width: 300px;
+	}
+	#ANG .info1 {
+		height: 200px;
+		font-size: 17px;
+		position: relative;
+		bottom: 15px;
+	}
+	#ANG .info2 {
+		height: 300px;
+		font-size: 14px;
+		position: relative;
+		bottom: 28px;
+	}
+	#ANG a {
+		color: black;
+	}
+
+
+
+
+	 /*London*/
+	 .BigBen {
+	 	border: 1px solid;
+	 	border-color: black;
+	 	border-radius: 3px;
+	 }
+	 .BigBen img {
+	 	float: left;
+	 	width: 400px;
+	 	height: 250px;
+	 }
+	 .BigBen p {
+	 }
+	 .Tauer img {
+		float: left;
+	 	width: 400px;
+	 	height: 250px;
+	 }
+
+
+
+
+
+	 /*Edinburg*/
+	.KingStreet img {
+	 	width: 100%;
+	 	height: 500px;
+	 }
+	.KingStreet a {
+		color: black !important;
+		position: relative;
+		bottom: 15px;
+		left: 620px;
+	}
+	.DogMonument img {
+	 	width: 100%;
+	 	height: 500px;
+	 }
+	.DogMonument a {
+		color: black !important;
+		position: relative;
+		bottom: 35px;
+		left: 620px;
+	}
+	.TronArtura img {
+	 	width: 100%;
+	 	height: 500px;
+	 }
+	.TronArtura a {
+		color: black !important;
+		position: relative;
+		bottom: 0px;
+		left: 620px;
+	}
+
+
+
+
+	/*Italy*/
+	.Logo h1 {
+		text-align: center;
+		color: black;
+		font-size: 28px;
+	}
+	.c1 {
+		border: 1px solid;
+		border-radius: 5px;
+
+	}
+	.c1 img {
+		float: left;
+		width: 320px;
+		height: 180px;
+	}
+	.c1 a {
+		color: black !important;
+	}
+	.c2 {
+		border: 1px solid;
+		border-radius: 5px;
+	}
+	.c2 img {
+		float: left;
+		width: 320px;
+		height: 190px;
+	}
+	.c2 p {
+		font-size: 16px;
+	}
+	.c2 a {
+		color: black !important;
+	}
+	.np1 a {
+		position: relative;
+		top: 20px;
+	}
+
+
+
+
+
+	/*Greece*/
+	.c2p {
+		font-size: 18px !important;
+	}
+	.c2a a {
+		top: 20px;
+	}
